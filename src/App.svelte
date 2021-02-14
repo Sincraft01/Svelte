@@ -20,8 +20,8 @@
 
 </svelte:head>
 
-<ion-header>
-<ion-toolbar color="medium">
+<ion-header >
+<ion-toolbar color="dark">
 <ion-grid>
 <ion-row class="ion-justify-content-center">
 
@@ -37,7 +37,7 @@
 </form>
 
 <ion-card class="font-effect-neon">
-<ion-label value="Email"></ion-label>
+<ion-label position='stacked'>Email</ion-label>
 <ion-input style="background-color:#333;" inset class="inset"></ion-input>
 </ion-card>
 </main>
