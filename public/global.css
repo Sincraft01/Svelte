@@ -10,11 +10,20 @@ html, body {
 ion-img{
     width:45px;
 }
+ion-toolbar {
+background-color:red ;
+}
 ion-card {
     background:rgb(155, 120, 155);
     font-family: 'Raleway',sans-serif;
     font-size:22px;
+    padding:5px;
     color:rgb(217, 240, 236);
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+    border:3px solid rgb(84, 225, 180);
+    
 }
 body {
 	color: rgb(141, 20, 20);
@@ -42,8 +51,13 @@ a:visited {
 label {
 	display: block;
 }
-
-input, button, select, textarea {
+ion-input {
+    border:3px solid rgb(84, 225, 180);
+ border-radius:15px;
+    
+    
+}
+button, select, textarea {
 	font-family: inherit;
 	font-size: inherit;
 	-webkit-padding: 0.4em 0;

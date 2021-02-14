@@ -21,17 +21,24 @@
 </svelte:head>
 
 <ion-header>
-<ion-toolbar>
+<ion-toolbar color="medium">
 <ion-grid>
-<ion-row class="justify-content-center">
+<ion-row class="ion-justify-content-center">
 
-<ion-img class="ion-justify-content-center" src="https://i.ibb.co/1RdX8rV/Illustration.png" margin="auto"></ion-img>
+<ion-img src="https://i.ibb.co/1RdX8rV/Illustration.png" margin="auto"></ion-img>
+</ion-row>
+</ion-grid>
 </ion-toolbar>
 </ion-header>
+
 <main>
-<ion-searchbar animated=true></ion-searchbar>
+<form action="https://www.google.com/search" method='get'>
+<ion-searchbar name='q' animated=true></ion-searchbar>
+</form>
+
 <ion-card class="font-effect-neon">
-text
+<ion-label value="Email"></ion-label>
+<ion-input style="background-color:#333;" inset class="inset"></ion-input>
 </ion-card>
 </main>
 
