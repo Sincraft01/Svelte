@@ -1,10 +1,25 @@
 <script>
 	export let name;
 </script>
+<svelte:head>
 
+  <script
+    type="module"
+    src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js">
+
+  </script>
+  <script
+    nomodule
+    src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js">
+
+  </script>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+
+</svelte:head>
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+<ion-searchbar animated=true></ion-searchbar>
 </main>
 
 <style>
