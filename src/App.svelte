@@ -39,6 +39,7 @@
 <ion-card class="font-effect-neon">
 <ion-label position='stacked'>Email</ion-label>
 <ion-input style="background-color:#333;" inset class="inset"></ion-input>
+<Button> test </Button>
 </ion-card>
 </main>
 
