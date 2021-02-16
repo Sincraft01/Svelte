@@ -1,7 +1,3 @@
-<script>
-	export let name;
-</script>
-
 <svelte:head>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap" rel="stylesheet">
@@ -29,7 +25,6 @@
 		<ion-grid>
 			<ion-row class="ion-justify-content-center">
 				<ion-col size='2'>
-
 					<ion-img
 					src="https://i.ibb.co/1RdX8rV/Illustration.png"
 					margin="auto"
@@ -38,12 +33,12 @@
 				</ion-col>
 				<ion-col size-lg><form action="https://www.google.com/search" method="get">
 					<ion-searchbar
-						color="light"
-						
-						search-Icon="logo-google"
-						placeholder="Google"
-						name="q"
-						class="ion-margin-auto"
+					color="light"
+					
+					search-Icon="logo-google"
+					placeholder="Google"
+					name="q"
+					class="ion-margin-auto"
 						animated="true"
 					/>
 				</form>
@@ -55,12 +50,14 @@
 
 <main>
 	<h1>
-	BLACKMAIL 
+		BLACKMAIL 
 		
 	</h1>
 	<ion-card class="font-effect-neon">
+		
 		<ion-label font-size="24" position="stacked">Email</ion-label>
 		<ion-input style="background-color:#333;" inset class="inset" />
+		<Button>button</Button>
 	</ion-card>
 </main>
 
