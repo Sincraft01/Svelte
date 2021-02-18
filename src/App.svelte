@@ -20,7 +20,7 @@
 	/>
 </svelte:head>
 
-<ion-header >
+<ion-header transparent>
 	<ion-toolbar color='#333'>
 		<ion-grid>
 			<ion-row class="ion-justify-content-center">
@@ -57,7 +57,7 @@
 		
 		<ion-label font-size="24" position="stacked">Email</ion-label>
 		<ion-input style="background-color:#333;" inset class="inset" />
-		<Button>button</Button>
+	
 	</ion-card>
 </main>
 
@@ -73,8 +73,8 @@
 
 	h1 {
 		font-family: 'Lexend Mega', sans-serif;
-		color: rgb(23,27,31);
-		text-shadow:2px 2px 4px black;
+		color: black;
+		text-shadow:2px 2px 4px teal;
 		text-transform: uppercase;
 		font-size: .8em;
 		font-weight: 500;
