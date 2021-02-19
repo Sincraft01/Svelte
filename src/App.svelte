@@ -1,4 +1,5 @@
 <svelte:head>
+<link rel="manifest" href="/app.webmanifest" >
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -26,7 +27,7 @@
 			<ion-row class="ion-justify-content-center">
 				<ion-col size='2'>
 					<ion-img
-					src="https://i.ibb.co/1RdX8rV/Illustration.png"
+					src="https://i.ibb.co/mFkd8Xw/sketch1613584156401.png"
 					margin="auto"
 					/>
 					
@@ -95,8 +96,7 @@
 import jquery from 'jquery';
 function foc() {
 	const $j = new jquery();
-	$j(":header").css({color:"red"	`	 
-	})
+	$j(":header").css({color:"red"	})
 };
 
 </script>
