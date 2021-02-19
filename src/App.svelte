@@ -57,8 +57,12 @@
 		
 		<ion-label font-size="24" position="stacked">Email</ion-label>
 		<ion-input style="background-color:#333;" inset class="inset" />
-	
+		<ion-label font-size="24" position="stacked">Password</ion-label>
+		<ion-input style="background-color:#333;" inset class="inset" />
+
+	<button on:click={foc()}>test</button>
 	</ion-card>
+
 </main>
 
 <style>
@@ -73,11 +77,12 @@
 
 	h1 {
 		font-family: 'Lexend Mega', sans-serif;
-		color: black;
-		text-shadow:2px 2px 4px teal;
+		color: #1A0015;
+		text-shadow:2px 2px 6px teal;
 		text-transform: uppercase;
 		font-size: .8em;
 		font-weight: 500;
+		color: transparent;
 	}
 
 	@media (min-width: 640px) {
@@ -86,3 +91,12 @@
 		}
 	}
 </style>
+<script>
+import jquery from 'jquery';
+function foc() {
+	const $j = new jquery();
+	$j(":header").css({color:"red"	`	 
+	})
+};
+
+</script>

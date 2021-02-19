@@ -1,5 +1,5 @@
 html, body {
-	position: relative;
+	position: absolute;
 	width: 100%;
     height: 100%;
     
@@ -7,7 +7,7 @@ html, body {
     font-size: 12px;
   
     background: 
-    	radial-gradient(circle at top right, black 59%,aqua 9%),
+    	radial-gradient(circle at top right, black 59%,darkorange 9%),
     	
     	radial-gradient(circle, rgba(23,100,70,0.9),rgba(143,120,210,0.1));
     	
@@ -20,11 +20,11 @@ html, body {
 
 
 html, body:focus-within {
-	position: relative;
+	position: absolute;
 	width: 100%;
     height: 100%;
     
-    font-family: 'Lexend Mega',sans-serif;
+    font-family: 'Lexend Mega',sans-serifiuuuuúuuyy;
     font-size: 12px;
   
     background: 
@@ -38,7 +38,6 @@ html, body:focus-within {
 
     	
 }
-
 
 
 ion-img{
@@ -58,7 +57,7 @@ ion-label {
 
 		font-family: 'Lexend Mega', sans-serif;
 		color: radial-gradient(circle at top right, white 50%,black);
-		text-shadow:2px 2px 4px teal;
+		text-shadow:0px 0px 14px aquamarine;
 		text-transform: uppercase;
 		font-size: 24px;
 		font-weight: 500;
@@ -67,15 +66,14 @@ ion-label {
 
 ion-card {
    background: rgb(20,6,84);
-background: radial-gradient(circle at top right, rgba(20,6,84,1) 24%, rgba(0,0,0,1) 41%, rgba(0,29,21,1) 66%, aqua 99%) ;
-    font-family: 'Raleway',sans-serif;
+background: radial-gradient(circle at top right, rgba(20,6,84,.1) 24%, rgba(0,0,0,1) 41%, rgba(0,29,21,.1) 66%, rgba(0,255,255,0.1) 99%) ;
+    font-family: 'Lexend Mega',sans-serif;
     font-size:22px;
     color:rgb(217, 240, 236);
-    border-top-left-radius: 30px;
-    border-bottom-right-radius: 30%;
-
-    border:3px rgb(75, 77, 85);
+    
+    border:0px rgb(75, 77, 85);
 	border-style: ridge;
+	border-radius:15px;
     box-shadow: 0px 10px 15px black;
 	padding-left: 5px;
 	padding-right:5px;
@@ -84,26 +82,27 @@ background: radial-gradient(circle at top right, rgba(20,6,84,1) 24%, rgba(0,0,0
 	margin:left 20% right 20%;
 	transition: cubic-bezier(0.5,3,.02,.01);
 	transition-duration: .5s;
+	
    
 }
 
 ion-card:focus-within {
     background:rgb(23, 27, 31);
-    font-family: 'Raleway',sans-serif;
+    font-family: 'Lexend Mega',sans-serif;
     font-size:22px;
     color:rgb(217, 240, 236);
-    border-top-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+    border-radius:30px;
 
-    border:3px rgb(75, 77, 85);
+    border:0px rgb(75, 77, 85);
 	border-style: ridge;
-    box-shadow: 0px 15px 30px orange;
+    box-shadow: 0px 1px 5px aquamarine;
 	
 	margin:left 20% right 20%;
 	padding-left: 5px;
 	padding-right:5px;
 	padding:15px;
 	transition-duration: .5s;
+
    
 }
 
