@@ -57,7 +57,7 @@
 		
 		<ion-label font-size="24" position="stacked">Email</ion-label>
 		<ion-input style="background-color:#333;" inset class="inset" />
-		<Button>button</Button>
+		
 	</ion-card>
 </main>
 
